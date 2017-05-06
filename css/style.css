@@ -1,13 +1,17 @@
 body {
-  background-color: springgreen;
+  background-color: lightgoldenrodyellow;
+
 }
 li.dropdown:hover > .dropdown-menu {
   display: block;
 }
+.navbar {
+  background-color: cyan;
+}
 .jumbotron {
   margin-top: 50px;
   padding-left: 50px;
-  background-color: plum;
+  background-color: #99ff99;
 }
 #video {
   background: #e3e3e3;
@@ -55,7 +59,7 @@ li.dropdown:hover > .dropdown-menu {
   margin: 0 auto;
 }
 .container {
-  background-color: turquoise;
+  background-color: cyan;
   border-radius: 10px;
 }
 .pagination {
@@ -63,6 +67,7 @@ li.dropdown:hover > .dropdown-menu {
 }
 #instructions {
   margin-top: 50px;
+  margin-bottom: 50px;
   background-color: inherit;
   text-align: center;
 }
@@ -96,4 +101,21 @@ background: beige;
 background-image: url('../img/prea.jpg');
 color: white;
 text-shadow: black;
+}
+.step1 {
+  background-color: #ff4d4d;
+  border-radius: 10px;
+}
+.step2 {
+  background-color: #ffff33;
+  border-radius: 10px;
+}
+.step3 {
+  background-color: #77ff33;
+  border-radius: 10px;
+}
+.step-tittle {
+  color: #d9d9d9;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  text-align: center;
 }
